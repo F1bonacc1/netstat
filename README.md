@@ -1,3 +1,5 @@
+## This repo is cloned from [cakturk/go-netstat](https://github.com/cakturk/go-netstat) to add darwin support for `TCP`, `TCP6`, `UDP`, `UDP6` socks.
+
 ### Usage:
 
 ```
@@ -17,6 +19,7 @@ Usage of ./go-netstat:
   -udp
     	display UDP sockets
 ```
+
 ### Installation:
 
 ```
@@ -24,8 +27,11 @@ $ go get github.com/cakturk/go-netstat
 ```
 
 ### Using as a library
+
 #### [Godoc](https://godoc.org/github.com/cakturk/go-netstat/netstat)
+
 #### Getting the package
+
 ```
 $ go get github.com/cakturk/go-netstat/netstat
 ```
